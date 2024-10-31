@@ -1,0 +1,132 @@
+#attendance-plugin form{
+	font-size:15px;
+}
+#attendance-plugin table{
+	margin:10px 10px 0 10px;border-collapse: collapse;
+}
+#attendance-plugin th, #attendance-plugin td{
+	padding:10px;border:1px solid #ccc;
+}
+#attendance-plugin th{
+	background-color:#ccc;border-bottom:1px solid white;
+}
+#attendance-plugin textarea.message{
+	width:400px;height:100px;
+}
+#attendance-plugin #attendance-header{
+	margin-top:10px;margin-right:10px;padding:5px;background-color:#0F4F22;color:white;
+}
+#attendance-plugin #attendance-header .plugin-name{
+	font-size:20px;display:inline-block;
+}
+#attendance-plugin #attendance-header .header-link{
+	padding:0 10px 0 10px;float:right;display:inline-block;
+}
+#attendance-plugin #attendance-header .header-link a{
+	color:white;text-decoration:none;
+}
+#attendance-plugin #attendance-header .header-link a:hover{
+	color:red;
+}
+#attendance-plugin .end th{
+	border-bottom:1px solid #ccc;
+}
+#attendance-plugin .submit{
+	width:600px;text-align:center;
+}
+#attendance-plugin #list th{
+	border-right:1px solid white;
+}
+#attendance-plugin #list th.right{
+	border-right:0;
+}
+#attendance-plugin #list td.right{
+	text-align:right;
+}
+#attendance-plugin #list td.center{
+	text-align:center;
+}
+#attendance-plugin #list .user_total{
+	border-top:5px solid #ccc;
+}
+#attendance-plugin #list .user_total span{
+	padding:0 5px 0 10px;font-size:17px;font-weight:bold;
+}
+#attendance-plugin #list .total{
+	border-top:5px solid #993333;
+}
+#attendance-plugin #list .total span{
+	padding:0 5px 0 10px;font-size:20px;font-weight:bold;
+}
+#attendance-plugin #list .total span.green, #attendance-plugin #list .user_total span.green{
+	color:green;
+}
+#attendance-plugin #list .total span.red, #attendance-plugin #list .user_total span.red{
+	color:red;
+}
+#attendance-plugin #list-search{
+	margin:0 10px 10px 10px;
+}
+#attendance-plugin .search-where{
+	margin:5px 10px 5px 10px;
+}
+#attendance-plugin #month-submit{
+	margin:5px 10px 5px 10px;
+}
+#attendance-plugin #month-submit .s-click{
+	width:100px;font-size:13px;border:1px solid #000000;background-color:#f5f5f5;
+}
+#attendance-plugin #month-submit .s-click:hover{
+	cursor:pointer;background-color:#ccc;
+}
+#attendance-plugin .list-checked span{
+	margin-right:10px;
+}
+#attendance-plugin .mtb15{
+	margin:15px 0 15px 0;
+}
+#attendance-plugin .inline{
+	display:inline-block;
+}
+#attendance-plugin .pr15{
+	padding-right:15px;
+}
+/*helpPage*/
+#help-page .strong{
+	margin:10px 0 0 0;font-weight:bold;font-size:17px;
+}
+/*skillInput*/
+#os-admin-skillsheet{
+	margin:5px 5px 10px 5px;width:100%;
+}
+#os-admin-skillsheet label{
+	font-weight:bold;
+}
+#os-admin-skillsheet .input{
+	display:inline-block;
+}
+#os-admin-skillsheet .os-block{
+	margin:15px 0 15px 0;display:block;vertical-align:top;
+}
+#os-admin-skillsheet .os-inline{
+	display:inline-block;vertical-align:top;
+}
+#os-admin-skillsheet .name-label{
+	display:inline-block;min-width:210px;vertical-align:top;
+}
+#os-admin-skillsheet .os-group-block .os-inline .os-inline{
+	padding-right:10px;
+}
+#os-admin-skillsheet .os-group-block .os-inline .os-inline label{
+	display:block;
+}
+/*clearfix*/
+.clearfix:after{
+	content:".";display:block;height:0;font-size:0;
+	clear:both;visibility:hidden;
+}
+.clearfix{display:inline-block;}
+/* Hides from IE Mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display:block;}
+/* End Hack */

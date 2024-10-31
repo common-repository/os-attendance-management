@@ -1,0 +1,55 @@
+.schedule{
+	clear:both;
+}
+.schedule p{
+	margin:0;padding:0;font-size:15px;
+}
+.schedule .at_date{
+	margin:5px 0 0 0;padding:5px;
+	border:1px solid green;
+}
+.schedule .person{
+	margin:0 0 5px 0;padding:10px;
+	background-color:#fafad2;border-bottom:1px solid #fafad2;border-left:1px solid #fafad2;border-right:1px solid #fafad2;
+}
+.schedule .person p.clear{
+	clear:both;display:block;
+}
+.schedule .person p.name, .schedule .person p.time{
+	float:left;
+}
+.schedule .person p.write{
+	font-size:13px;float:right;
+}
+.schedule .person p.name{
+	margin-right:5px;padding-right:20px;background-image:url("/wp-content/plugins/os-attendance-management/img/sankaku.png");background-repeat:no-repeat;background-position:right center;
+}
+/*skillInput*/
+#os-am-skillsheet{
+	margin:5px;
+}
+#os-am-skillsheet .os-tbl{
+	display:table;
+}
+#os-am-skillsheet .os-tbl .os-row{
+	display:table-row;
+}
+#os-am-skillsheet .os-tbl .os-row .os-th{
+	display:table-cell;padding:5px;min-width:100px;text-align:center;
+	border:1px solid #ccc;background-color:#eee;font-weight:bold;
+}
+#os-am-skillsheet .os-tbl .os-row .os-td{
+	display:table-cell;padding:5px;border:1px solid #eee;
+}
+#os-am-skillsheet .os-tbl .os-row .os-td div{
+	display:inline-block;
+}
+#os-am-skillsheet .os-tbl .os-row .os-td .label{
+	padding:5px;width:100%;background-color:#eee;font-weight:bold;
+}
+#os-am-skillsheet .os-tbl .os-row .os-td .value{
+	padding:2px;width:100%;
+}
+#os-am-skillsheet .os-tbl .block .os-td{
+	width:100%;
+}
